@@ -44,6 +44,19 @@ Si querés chequear manualmente, en la parte de arriba de la ventana hay un bot�
 
 ---
 
+## Cambios recientes
+
+**v1.0.11** — mayo 2026
+- **TXT LAN**: corregido un caso en el que el bot podía marcar filas como OK aunque TRAMS no hubiera cargado los invoices (cuando otro bot dejaba el sistema apuntando a Amadeus en vez de Sabre). Ahora la app lo detecta y avisa antes de seguir.
+
+**v1.0.10** — mayo 2026
+- La app se actualiza sola (autoupdate) cada vez que arranca.
+- Botón **Buscar actualizaciones** en el menú superior.
+
+Para ver el detalle completo de cada versión: [historial de releases](https://github.com/Sti-Project/bots-sti-releases/releases).
+
+---
+
 ## Si algo no funciona
 
 Avisanos por el canal interno de STI. Decinos qué bot estabas usando y, si podés, mandanos una foto de la pantalla con el error.
